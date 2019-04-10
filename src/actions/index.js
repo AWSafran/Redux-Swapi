@@ -14,6 +14,7 @@ export const FAILURE = 'FAILURE';
 
 export const getData = () => dispatch =>{
     //sending fetching action
+    //console.log("getting data");
     dispatch({
         type: FETCHING
     });
